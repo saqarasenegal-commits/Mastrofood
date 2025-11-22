@@ -1,0 +1,24 @@
+
+/* App.module.css */
+@reference "tailwindcss/utilities";
+
+@layer base {
+  body {
+    background-color: #0f172a; /* équivalent bg-slate-900 */
+    color: #f1f5f9;           /* équivalent text-slate-100 */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+}
+
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg font-semibold shadow-md bg-blue-600 text-white hover:bg-blue-700 transition;
+  }
+}
+
+@layer utilities {
+  .center {
+    @apply flex items-center justify-center;
+  }
+}

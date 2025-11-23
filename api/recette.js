@@ -2,7 +2,7 @@
 import OpenAI from "openai";
 
 const client = new OpenAI({
-apiKey: process.env.OPENAI_API_KEY
+apiKey: process.env.VITE_OPENAI_API_KEY
   dangerouslyAllowBrowser: true, // ⚠️ uniquement pour test côté client
 });
 
@@ -17,4 +17,5 @@ export async function generateRecipe(prompt) {
 
   return response.choices[0].message.content;
 }
+
 

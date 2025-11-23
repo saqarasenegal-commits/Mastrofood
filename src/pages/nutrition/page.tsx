@@ -3016,7 +3016,7 @@ en analysant les besoins énergétiques de votre configuration astrale.
             </p>
             <div className="mt-6 flex items-center justify-center space-x-4">
               <a href="https://readdy.ai/?origin=logo" className="text-orange-600 hover:text-orange-700 font-medium">
-                Powered by Readdy
+                Powered by Marcady
               </a>
               <span className="text-gray-300">•</span>
               <button
